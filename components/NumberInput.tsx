@@ -33,7 +33,7 @@ export default function NumberInput({ name, formRef }: Props) {
 
   return (
     <div
-      className="w-36 border-2 border-gray-200 rounded-md flex flex-row items-center"
+      className="w-36 border-2 border-black rounded-md flex flex-row items-center"
     >
       <button
         type="button"
@@ -50,7 +50,7 @@ export default function NumberInput({ name, formRef }: Props) {
         value={number}
         onChange={e => setNumber(Number(e.target.value))}
         min={0}
-        className="w-12 border-none focus:ring-0 text-center bg-gray-200"
+        className="w-12 border-none focus:ring-0 text-center bg-gray-700"
       />
       <button
         type="button"
